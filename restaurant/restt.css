@@ -1,0 +1,113 @@
+body {
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Baloo Bhai 2", cursive;
+}
+.navcantainer {
+  border: 2px solid black;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-wrap: wrapcenter;
+  align-items: center;
+  background-color: white;
+  color: black;
+  border-radius: 30px;
+}
+.cantainer1 {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  list-style: none;
+  flex-wrap: wrap;
+  margin: 3%;
+}
+a:hover {
+  text-decoration: underline red;
+  color: rgb(0, 183, 255);
+}
+p {
+  position: relative;
+  margin: 5%;
+  font-size: xx-large;
+  line-height: 1.1;
+  text-align: center;
+  animation-name: risabh;
+  animation-duration: 3s;
+  animation-iteration-count: 3;
+}
+@keyframes rishabh {
+  from {
+    width: 5%;
+  }
+  to{
+    width: 300px;
+  }
+}
+#p1:hover {
+  color: rgb(255, 0, 255);
+  text-shadow: 1px 2px 2px black;
+}
+li a {
+  font-size: xx-large;
+  text-decoration: none;
+  margin: 30px;
+  color: black;
+  flex-wrap: wrap;
+}
+.cant2 {
+  display: flex;
+  color: white;
+  background-image: url(photo-1524351199678-941a58a3df50.avif);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-top: 1%;
+  width: 100%;
+  height: 790px;
+  border-radius: 20px;
+}
+#box3 {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 10%;
+  margin-left: 25%;
+}
+.cant3 {
+  margin-top: 10px;
+  display: flex;
+  padding: 2%;
+  width: 100%;
+  height: 550px;
+  border-radius: 30px;
+}
+#img1 {
+  width: 45%;
+  height: 550px;
+  border-radius: 30px;
+}
+.cant4 {
+  font-size: large;
+  background-color: whitesmoke;
+  text-align: center;
+  width: 45%;
+  margin-left: 5%;
+  display: inline-block;
+  margin-right: 0px;
+  color: black;
+  border-radius: 30px;
+  box-shadow: 10px 10px 10px red;
+}
+
+#p2 {
+  font-size: 50px;
+  text-shadow: 5px 3px 1px skyblue;
+}
+.p1 {
+  text-align: center;
+
+  font-size: 25px;
+  font-weight: 100;
+  text-align: justify;
+  padding: 0px 29px;
+}
